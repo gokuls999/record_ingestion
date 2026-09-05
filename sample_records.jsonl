@@ -1,0 +1,229 @@
+{"id": "r-0001", "source": "delta", "recordedAt": "2026-03-20T14:00:00+05:30", "value": 40, "status": "WARN"}
+{"id": "r-0002", "source": "gamma", "recordedAt": "2026-03-01 14:16:00", "value": 98, "status": "WARN"}
+{"id": "r-0003", "source": "delta", "recordedAt": "17/03/2026 11:52:00", "value": 51, "status": "WARN"}
+{"id": "r-0004", "source": "alpha", "recordedAt": "2026-03-25T07:12:00Z", "value": 93, "status": "FAIL"}
+{"id": "r-0005", "source": "gamma", "recordedAt": "2026-03-07T11:07:00+05:30", "value": 14, "status": "WARN"}
+{"id": "dup-0001", "source": "alpha", "recordedAt": "2026-03-11T11:00:00Z", "value": 77, "status": "WARN"}
+{"id": "r-0006", "source": "alpha", "recordedAt": "2026-03-09 02:33:00", "value": 0, "status": "FAIL"}
+{"id": "lenient-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 33, "status": "ok"}
+{"id": "r-0007", "source": "alpha", "recordedAt": "17/03/2026 23:18:00", "value": 57, "status": "WARN"}
+{"id": "r-0008", "source": "alpha", "recordedAt": "2026-03-30T02:11:00Z", "value": 51, "status": "WARN"}
+{"id": "r-0009", "source": "gamma", "recordedAt": "2026-03-16T13:00:00+05:30", "value": 87, "status": "WARN"}
+{"id": "r-0010", "source": "gamma", "recordedAt": "2026-03-11 20:25:00", "value": 92, "status": "OK"}
+{"id": "r-0011", "source": "alpha", "recordedAt": "05/03/2026 00:17:00", "value": 82, "status": "OK"}
+{"id": "blank-0002", "source": "   ", "recordedAt": "2026-03-11T09:00:00Z", "value": 20, "status": "OK"}
+{"id": "r-0012", "source": "delta", "recordedAt": "2026-03-07T21:45:00Z", "value": 62, "status": "OK"}
+{"id": "r-0013", "source": "beta", "recordedAt": "2026-03-01T12:45:00+05:30", "value": 46, "status": "WARN"}
+{"id": "r-0014", "source": "alpha", "recordedAt": "2026-03-18 03:31:00", "value": 39, "status": "FAIL"}
+{"id": "r-0015", "source": "alpha", "recordedAt": "26/03/2026 17:37:00", "value": 48, "status": "FAIL"}
+{"id": "dup-0003", "source": "gamma", "recordedAt": "2026-03-12T09:00:00Z", "value": 55, "status": "OK"}
+{"id": "r-0016", "source": "beta", "recordedAt": "2026-03-18T17:18:00Z", "value": 25, "status": "OK"}
+{"id": "r-0017", "source": "alpha", "recordedAt": "2026-03-28T07:37:00+05:30", "value": 41, "status": "FAIL"}
+{"id": "r-0018", "source": "gamma", "recordedAt": "2026-03-02 18:37:00", "value": 65, "status": "OK"}
+{"id": "r-0019", "source": "alpha", "recordedAt": "14/03/2026 23:05:00", "value": 26, "status": "WARN"}
+{"id": "r-0020", "source": "delta", "recordedAt": "2026-03-10T16:26:00Z", "value": 53, "status": "WARN"}
+{"id": "r-0021", "source": "alpha", "recordedAt": "2026-03-22T04:12:00+05:30", "value": 55, "status": "FAIL"}
+{"id": "r-0022", "source": "delta", "recordedAt": "2026-03-14 11:55:00", "value": 70, "status": "WARN"}
+{"id": "r-0023", "source": "delta", "recordedAt": "05/03/2026 08:53:00", "value": 6, "status": "FAIL"}
+{"id": "r-0024", "source": "gamma", "recordedAt": "2026-03-20T10:45:00Z", "value": 51, "status": "OK"}
+{"id": "dup-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 40, "status": "OK"}
+{"id": "r-0025", "source": "alpha", "recordedAt": "2026-03-26T19:20:00+05:30", "value": 50, "status": "OK"}
+{"id": "r-0026", "source": "alpha", "recordedAt": "2026-03-22 03:52:00", "value": 99, "status": "OK"}
+{"id": "r-0027", "source": "alpha", "recordedAt": "01/03/2026 05:40:00", "value": 79, "status": "OK"}
+{"id": "r-0028", "source": "beta", "recordedAt": "2026-03-26T00:12:00Z", "value": 83, "status": "OK"}
+{"id": "r-0029", "source": "alpha", "recordedAt": "2026-03-16T02:23:00+05:30", "value": 56, "status": "OK"}
+{"id": "r-0030", "source": "delta", "recordedAt": "2026-03-05 20:04:00", "value": 98, "status": "OK"}
+{"id": "r-0031", "source": "delta", "recordedAt": "12/03/2026 23:23:00", "value": 27, "status": "OK"}
+{"id": "r-0032", "source": "delta", "recordedAt": "2026-03-01T22:32:00Z", "value": 42, "status": "OK"}
+{"id": "r-0033", "source": "alpha", "recordedAt": "2026-03-25T18:19:00+05:30", "value": 44, "status": "WARN"}
+{"id": "r-0034", "source": "delta", "recordedAt": "2026-03-21 09:03:00", "value": 7, "status": "WARN"}
+{"id": "lenient-0004", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 66, "status": "OK", "region": "EMEA"}
+{"id": "r-0035", "source": "delta", "recordedAt": "05/03/2026 19:11:00", "value": 62, "status": "OK"}
+{"id": "r-0036", "source": "delta", "recordedAt": "2026-03-22T11:58:00Z", "value": 84, "status": "WARN"}
+{"id": "r-0037", "source": "delta", "recordedAt": "2026-03-16T21:26:00+05:30", "value": 55, "status": "FAIL"}
+{"id": "r-0038", "source": "delta", "recordedAt": "2026-03-18 22:36:00", "value": 64, "status": "WARN"}
+{"id": "r-0039", "source": "alpha", "recordedAt": "29/03/2026 16:24:00", "value": 100, "status": "OK"}
+{"id": "r-0040", "source": "delta", "recordedAt": "2026-03-27T23:16:00Z", "value": 71, "status": "FAIL"}
+{"id": "r-0041", "source": "beta", "recordedAt": "2026-03-17T00:55:00+05:30", "value": 32, "status": "FAIL"}
+{"id": "r-0042", "source": "beta", "recordedAt": "2026-03-11 17:53:00", "value": 44, "status": "OK"}
+{"id": "r-0043", "source": "beta", "recordedAt": "02/03/2026 19:41:00", "value": 45, "status": "WARN"}
+{"id": "r-0044", "source": "alpha", "recordedAt": "2026-03-03T07:56:00Z", "value": 20, "status": "OK"}
+{"id": "dup-0002", "source": "beta", "recordedAt": "2026-03-11T09:00:00Z", "value": 10, "status": "OK"}
+{"id": "r-0045", "source": "alpha", "recordedAt": "2026-03-29T06:49:00+05:30", "value": 4, "status": "WARN"}
+{"id": "r-0046", "source": "beta", "recordedAt": "2026-03-26 15:07:00", "value": 20, "status": "OK"}
+{"id": "r-0047", "source": "delta", "recordedAt": "12/03/2026 00:38:00", "value": 50, "status": "FAIL"}
+{"id": "r-0048", "source": "delta", "recordedAt": "2026-03-22T16:16:00Z", "value": 45, "status": "OK"}
+{"id": "r-0049", "source": "delta", "recordedAt": "2026-03-09T21:05:00+05:30", "value": 71, "status": "WARN"}
+{"id": "r-0050", "source": "beta", "recordedAt": "2026-03-18 08:00:00", "value": 98, "status": "OK"}
+{"id": "r-0051", "source": "beta", "recordedAt": "13/03/2026 00:40:00", "value": 66, "status": "OK"}
+{"id": "status-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 20, "status": "PENDING"}
+{"id": "r-0052", "source": "delta", "recordedAt": "2026-03-09T19:28:00Z", "value": 58, "status": "FAIL"}
+{"id": "r-0053", "source": "beta", "recordedAt": "2026-03-03T21:21:00+05:30", "value": 48, "status": "WARN"}
+{"id": "r-0054", "source": "delta", "recordedAt": "2026-03-24 21:24:00", "value": 90, "status": "WARN"}
+{"id": "r-0055", "source": "delta", "recordedAt": "26/03/2026 14:36:00", "value": 14, "status": "OK"}
+{"id": "r-0056", "source": "beta", "recordedAt": "2026-03-24T23:26:00Z", "value": 64, "status": "FAIL"}
+{"id": "r-0057", "source": "delta", "recordedAt": "2026-03-25T17:08:00+05:30", "value": 38, "status": "OK"}
+{"id": "r-0058", "source": "alpha", "recordedAt": "2026-03-13 14:12:00", "value": 93, "status": "FAIL"}
+{"id": "r-0059", "source": "delta", "recordedAt": "19/03/2026 08:56:00", "value": 74, "status": "FAIL"}
+{"id": "r-0060", "source": "gamma", "recordedAt": "2026-03-12T20:54:00Z", "value": 42, "status": "WARN"}
+{"id": "r-0061", "source": "delta", "recordedAt": "2026-03-08T20:23:00+05:30", "value": 95, "status": "FAIL"}
+{"id": "r-0062", "source": "delta", "recordedAt": "2026-03-08 06:49:00", "value": 25, "status": "FAIL"}
+{"id": "miss-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 30}
+{"id": "r-0063", "source": "gamma", "recordedAt": "09/03/2026 10:19:00", "value": 55, "status": "WARN"}
+{"id": "r-0064", "source": "alpha", "recordedAt": "2026-03-26T00:11:00Z", "value": 75, "status": "FAIL"}
+{"id": "r-0065", "source": "beta", "recordedAt": "2026-03-24T08:03:00+05:30", "value": 1, "status": "OK"}
+{"id": "r-0066", "source": "gamma", "recordedAt": "2026-03-22 13:56:00", "value": 100, "status": "FAIL"}
+{"id": "r-0067", "source": "beta", "recordedAt": "09/03/2026 06:50:00", "value": 61, "status": "WARN"}
+{"id": "r-0068", "source": "alpha", "recordedAt": "2026-03-10T10:16:00Z", "value": 90, "status": "FAIL"}
+{"id": "lenient-0002", "source": "  beta  ", "recordedAt": "2026-03-11T09:00:00Z", "value": 44, "status": " WARN "}
+{"id": "r-0069", "source": "alpha", "recordedAt": "2026-03-03T13:26:00+05:30", "value": 0, "status": "WARN"}
+{"id": "dup-0003", "source": "gamma", "recordedAt": "2026-03-11T09:00:00Z", "value": 22, "status": "FAIL"}
+{"id": "val-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 150, "status": "OK"}
+{"id": "r-0070", "source": "beta", "recordedAt": "2026-03-11 04:14:00", "value": 85, "status": "WARN"}
+{"id": "r-0071", "source": "beta", "recordedAt": "17/03/2026 08:40:00", "value": 77, "status": "WARN"}
+{"id": "r-0072", "source": "delta", "recordedAt": "2026-03-13T15:26:00Z", "value": 44, "status": "OK"}
+{"id": "r-0073", "source": "beta", "recordedAt": "2026-03-03T14:42:00+05:30", "value": 81, "status": "FAIL"}
+{"id": "r-0074", "source": "delta", "recordedAt": "2026-03-09 07:54:00", "value": 53, "status": "FAIL"}
+{"id": "r-0075", "source": "gamma", "recordedAt": "15/03/2026 00:34:00", "value": 23, "status": "WARN"}
+{"id": "r-0076", "source": "gamma", "recordedAt": "2026-03-20T22:21:00Z", "value": 43, "status": "OK"}
+{"id": "r-0077", "source": "delta", "recordedAt": "2026-03-07T08:05:00+05:30", "value": 79, "status": "FAIL"}
+{"id": "r-0078", "source": "beta", "recordedAt": "2026-03-03 09:03:00", "value": 29, "status": "FAIL"}
+{"id": "r-0079", "source": "gamma", "recordedAt": "01/03/2026 09:34:00", "value": 74, "status": "OK"}
+{"id": "r-0080", "source": "beta", "recordedAt": "2026-03-21T16:07:00Z", "value": 66, "status": "OK"}
+{"id": "r-0081", "source": "beta", "recordedAt": "2026-03-25T19:31:00+05:30", "value": 19, "status": "FAIL"}
+{"id": "r-0082", "source": "gamma", "recordedAt": "2026-03-17 20:50:00", "value": 41, "status": "WARN"}
+{"id": "r-0083", "source": "beta", "recordedAt": "17/03/2026 14:55:00", "value": 42, "status": "WARN"}
+{"id": "r-0084", "source": "delta", "recordedAt": "2026-03-03T07:00:00Z", "value": 28, "status": "FAIL"}
+{"id": "r-0085", "source": "delta", "recordedAt": "2026-03-03T11:29:00+05:30", "value": 55, "status": "OK"}
+{"id": "r-0086", "source": "gamma", "recordedAt": "2026-03-16 06:51:00", "value": 85, "status": "WARN"}
+{"id": "val-0002", "source": "beta", "recordedAt": "2026-03-11T09:00:00Z", "value": -5, "status": "OK"}
+{"id": "broken-0001", "source": "alpha", "recordedAt": 
+{"id": "r-0087", "source": "delta", "recordedAt": "19/03/2026 00:55:00", "value": 46, "status": "FAIL"}
+{"id": "r-0088", "source": "gamma", "recordedAt": "2026-03-03T12:51:00Z", "value": 40, "status": "WARN"}
+{"id": "blank-0001", "source": "", "recordedAt": "2026-03-11T09:00:00Z", "value": 20, "status": "OK"}
+{"id": "r-0089", "source": "gamma", "recordedAt": "2026-03-15T08:04:00+05:30", "value": 95, "status": "OK"}
+{"id": "r-0090", "source": "beta", "recordedAt": "2026-03-21 15:54:00", "value": 94, "status": "OK"}
+{"id": "r-0091", "source": "delta", "recordedAt": "11/03/2026 04:24:00", "value": 74, "status": "OK"}
+{"id": "r-0092", "source": "delta", "recordedAt": "2026-03-30T03:24:00Z", "value": 100, "status": "OK"}
+{"id": "r-0093", "source": "alpha", "recordedAt": "2026-03-14T12:38:00+05:30", "value": 27, "status": "WARN"}
+{"id": "r-0094", "source": "delta", "recordedAt": "2026-03-07 17:28:00", "value": 26, "status": "OK"}
+{"id": "r-0095", "source": "beta", "recordedAt": "24/03/2026 17:11:00", "value": 6, "status": "WARN"}
+{"id": "r-0096", "source": "gamma", "recordedAt": "2026-03-30T06:22:00Z", "value": 69, "status": "OK"}
+{"id": "r-0097", "source": "gamma", "recordedAt": "2026-03-19T05:29:00+05:30", "value": 0, "status": "WARN"}
+{"id": "r-0098", "source": "beta", "recordedAt": "2026-03-03 13:21:00", "value": 77, "status": "FAIL"}
+{"id": "r-0099", "source": "gamma", "recordedAt": "27/03/2026 02:47:00", "value": 28, "status": "OK"}
+{"id": "r-0100", "source": "gamma", "recordedAt": "2026-03-27T20:00:00Z", "value": 84, "status": "OK"}
+{"id": "r-0101", "source": "beta", "recordedAt": "2026-03-28T14:56:00+05:30", "value": 58, "status": "WARN"}
+{"id": "r-0102", "source": "delta", "recordedAt": "2026-03-09 00:51:00", "value": 46, "status": "OK"}
+{"id": "r-0103", "source": "delta", "recordedAt": "27/03/2026 22:30:00", "value": 51, "status": "FAIL"}
+{"id": "r-0104", "source": "beta", "recordedAt": "2026-03-09T14:57:00Z", "value": 97, "status": "WARN"}
+{"id": "date-0002", "source": "alpha", "recordedAt": "   ", "value": 12, "status": "OK"}
+["not", "an", "object"]
+{"id": "r-0105", "source": "alpha", "recordedAt": "2026-03-12T23:08:00+05:30", "value": 12, "status": "OK"}
+{"id": "r-0106", "source": "delta", "recordedAt": "2026-03-26 02:06:00", "value": 41, "status": "OK"}
+{"id": "r-0107", "source": "delta", "recordedAt": "15/03/2026 09:39:00", "value": 40, "status": "FAIL"}
+{"id": "r-0108", "source": "delta", "recordedAt": "2026-03-17T18:28:00Z", "value": 63, "status": "WARN"}
+{"id": "r-0109", "source": "beta", "recordedAt": "2026-03-05T22:44:00+05:30", "value": 87, "status": "FAIL"}
+{"id": "r-0110", "source": "gamma", "recordedAt": "2026-03-06 23:38:00", "value": 64, "status": "OK"}
+{"id": "dup-0001", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 40, "status": "OK"}
+{"id": "r-0111", "source": "alpha", "recordedAt": "25/03/2026 07:40:00", "value": 45, "status": "OK"}
+{"id": "r-0112", "source": "delta", "recordedAt": "2026-03-02T07:10:00Z", "value": 13, "status": "WARN"}
+{"id": "r-0113", "source": "gamma", "recordedAt": "2026-03-18T21:40:00+05:30", "value": 93, "status": "OK"}
+{"id": "r-0114", "source": "gamma", "recordedAt": "2026-03-02 02:58:00", "value": 22, "status": "OK"}
+{"id": "r-0115", "source": "alpha", "recordedAt": "20/03/2026 23:52:00", "value": 49, "status": "FAIL"}
+{"id": "r-0116", "source": "delta", "recordedAt": "2026-03-07T22:30:00Z", "value": 98, "status": "WARN"}
+{"id": "r-0117", "source": "alpha", "recordedAt": "2026-03-13T14:33:00+05:30", "value": 47, "status": "FAIL"}
+{"id": "r-0118", "source": "alpha", "recordedAt": "2026-03-24 16:41:00", "value": 62, "status": "FAIL"}
+{"id": "miss-0002", "source": "beta", "recordedAt": "2026-03-11T09:00:00Z", "status": "OK"}
+{"id": "r-0119", "source": "delta", "recordedAt": "24/03/2026 09:36:00", "value": 79, "status": "FAIL"}
+{"id": "miss-0003", "source": null, "recordedAt": "2026-03-11T09:00:00Z", "value": 5, "status": "OK"}
+{"id": "r-0120", "source": "beta", "recordedAt": "2026-03-06T02:06:00Z", "value": 60, "status": "WARN"}
+{"id": "r-0121", "source": "alpha", "recordedAt": "2026-03-24T03:37:00+05:30", "value": 84, "status": "OK"}
+{"id": "r-0122", "source": "alpha", "recordedAt": "2026-03-06 17:25:00", "value": 38, "status": "WARN"}
+{"id": "r-0123", "source": "delta", "recordedAt": "01/03/2026 20:15:00", "value": 80, "status": "WARN"}
+{"id": "r-0124", "source": "alpha", "recordedAt": "2026-03-06T00:50:00Z", "value": 95, "status": "FAIL"}
+{"id": "r-0125", "source": "delta", "recordedAt": "2026-03-25T11:19:00+05:30", "value": 18, "status": "FAIL"}
+{"id": "   ", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 20, "status": "OK"}
+{"id": "status-0002", "source": "beta", "recordedAt": "2026-03-11T09:00:00Z", "value": 20, "status": ""}
+{"id": "date-0003", "source": "alpha", "recordedAt": "2026-13-45T99:99:99Z", "value": 12, "status": "OK"}
+{"id": "val-0004", "source": "delta", "recordedAt": "2026-03-11T09:00:00Z", "value": "42", "status": "OK"}
+{"id": "r-0126", "source": "delta", "recordedAt": "2026-03-13 11:50:00", "value": 64, "status": "OK"}
+{"id": "r-0127", "source": "gamma", "recordedAt": "11/03/2026 00:44:00", "value": 35, "status": "FAIL"}
+{"id": "r-0128", "source": "beta", "recordedAt": "2026-03-03T13:39:00Z", "value": 30, "status": "OK"}
+{"id": "r-0129", "source": "delta", "recordedAt": "2026-03-30T07:16:00+05:30", "value": 14, "status": "FAIL"}
+{"id": "r-0130", "source": "beta", "recordedAt": "2026-03-06 22:44:00", "value": 17, "status": "FAIL"}
+{"id": "r-0131", "source": "alpha", "recordedAt": "27/03/2026 17:57:00", "value": 68, "status": "OK"}
+{"id": "r-0132", "source": "alpha", "recordedAt": "2026-03-08T18:55:00Z", "value": 45, "status": "FAIL"}
+{"id": "r-0133", "source": "beta", "recordedAt": "2026-03-28T02:35:00+05:30", "value": 19, "status": "WARN"}
+{"id": "r-0134", "source": "alpha", "recordedAt": "2026-03-24 03:56:00", "value": 100, "status": "WARN"}
+{"id": "r-0135", "source": "beta", "recordedAt": "12/03/2026 08:25:00", "value": 7, "status": "WARN"}
+{"id": "r-0136", "source": "gamma", "recordedAt": "2026-03-06T06:00:00Z", "value": 40, "status": "OK"}
+{"id": "r-0137", "source": "alpha", "recordedAt": "2026-03-29T21:09:00+05:30", "value": 69, "status": "WARN"}
+{"id": "r-0138", "source": "delta", "recordedAt": "2026-03-07 18:16:00", "value": 63, "status": "FAIL"}
+{"id": "r-0139", "source": "delta", "recordedAt": "08/03/2026 01:45:00", "value": 40, "status": "OK"}
+{"id": "val-0005", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": true, "status": "OK"}
+{"id": "r-0140", "source": "alpha", "recordedAt": "2026-03-17T07:08:00Z", "value": 23, "status": "WARN"}
+{"id": "r-0141", "source": "gamma", "recordedAt": "2026-03-15T01:40:00+05:30", "value": 91, "status": "WARN"}
+{"id": "r-0142", "source": "alpha", "recordedAt": "2026-03-18 17:57:00", "value": 77, "status": "WARN"}
+{"id": "r-0143", "source": "alpha", "recordedAt": "11/03/2026 21:41:00", "value": 40, "status": "WARN"}
+{"id": "r-0144", "source": "gamma", "recordedAt": "2026-03-03T19:49:00Z", "value": 24, "status": "FAIL"}
+{"id": "r-0145", "source": "alpha", "recordedAt": "2026-03-29T23:45:00+05:30", "value": 0, "status": "FAIL"}
+{"id": "r-0146", "source": "gamma", "recordedAt": "2026-03-12 17:17:00", "value": 28, "status": "WARN"}
+{"id": "r-0147", "source": "delta", "recordedAt": "05/03/2026 21:20:00", "value": 69, "status": "OK"}
+{"id": "r-0148", "source": "alpha", "recordedAt": "2026-03-30T16:30:00Z", "value": 1, "status": "OK"}
+{"id": "r-0149", "source": "beta", "recordedAt": "2026-03-16T07:37:00+05:30", "value": 14, "status": "WARN"}
+{"id": "r-0150", "source": "delta", "recordedAt": "2026-03-15 21:49:00", "value": 63, "status": "OK"}
+{"id": "r-0151", "source": "alpha", "recordedAt": "19/03/2026 23:20:00", "value": 78, "status": "OK"}
+{"id": "r-0152", "source": "gamma", "recordedAt": "2026-03-19T02:46:00Z", "value": 19, "status": "FAIL"}
+{"id": "r-0153", "source": "beta", "recordedAt": "2026-03-17T00:28:00+05:30", "value": 23, "status": "WARN"}
+{"id": "r-0154", "source": "alpha", "recordedAt": "2026-03-10 18:38:00", "value": 58, "status": "WARN"}
+{"id": "r-0155", "source": "gamma", "recordedAt": "08/03/2026 05:08:00", "value": 20, "status": "FAIL"}
+{"id": "r-0156", "source": "beta", "recordedAt": "2026-03-13T20:43:00Z", "value": 60, "status": "FAIL"}
+{"id": "r-0157", "source": "alpha", "recordedAt": "2026-03-21T00:50:00+05:30", "value": 53, "status": "OK"}
+{"id": "r-0158", "source": "delta", "recordedAt": "2026-03-03 13:52:00", "value": 44, "status": "FAIL"}
+{"id": "r-0159", "source": "gamma", "recordedAt": "03/03/2026 02:59:00", "value": 71, "status": "OK"}
+{"id": "r-0160", "source": "beta", "recordedAt": "2026-03-19T12:18:00Z", "value": 72, "status": "FAIL"}
+{"id": "r-0161", "source": "gamma", "recordedAt": "2026-03-22T14:13:00+05:30", "value": 52, "status": "OK"}
+{"id": "r-0162", "source": "gamma", "recordedAt": "2026-03-19 10:38:00", "value": 5, "status": "WARN"}
+{"id": "r-0163", "source": "delta", "recordedAt": "30/03/2026 01:45:00", "value": 41, "status": "WARN"}
+{"id": "r-0164", "source": "alpha", "recordedAt": "2026-03-26T00:27:00Z", "value": 10, "status": "WARN"}
+{"id": "r-0165", "source": "alpha", "recordedAt": "2026-03-07T05:24:00+05:30", "value": 36, "status": "FAIL"}
+{"id": "r-0166", "source": "gamma", "recordedAt": "2026-03-18 00:48:00", "value": 46, "status": "FAIL"}
+{"id": "r-0167", "source": "alpha", "recordedAt": "04/03/2026 14:12:00", "value": 90, "status": "WARN"}
+{"id": "r-0168", "source": "gamma", "recordedAt": "2026-03-14T13:51:00Z", "value": 56, "status": "OK"}
+{"id": "r-0169", "source": "beta", "recordedAt": "2026-03-07T19:15:00+05:30", "value": 44, "status": "WARN"}
+{"id": "r-0170", "source": "beta", "recordedAt": "2026-03-20 20:27:00", "value": 36, "status": "FAIL"}
+{"id": "r-0171", "source": "alpha", "recordedAt": "19/03/2026 23:19:00", "value": 3, "status": "FAIL"}
+{"id": "r-0172", "source": "alpha", "recordedAt": "2026-03-30T21:34:00Z", "value": 72, "status": "OK"}
+{"id": "r-0173", "source": "beta", "recordedAt": "2026-03-03T13:25:00+05:30", "value": 45, "status": "OK"}
+{"id": "val-0003", "source": "gamma", "recordedAt": "2026-03-11T09:00:00Z", "value": 42.5, "status": "OK"}
+{"id": "r-0174", "source": "alpha", "recordedAt": "2026-03-01 05:27:00", "value": 13, "status": "OK"}
+{"id": "date-0001", "source": "alpha", "recordedAt": "14th of March, 2026", "value": 12, "status": "OK"}
+{"id": "r-0175", "source": "gamma", "recordedAt": "17/03/2026 18:35:00", "value": 20, "status": "WARN"}
+{"id": "r-0176", "source": "delta", "recordedAt": "2026-03-24T08:42:00Z", "value": 100, "status": "FAIL"}
+{"id": "lenient-0003", "source": "alpha", "recordedAt": "2026-03-11T09:00:00Z", "value": 55.0, "status": "OK"}
+{"id": "r-0177", "source": "gamma", "recordedAt": "2026-03-03T16:49:00+05:30", "value": 5, "status": "FAIL"}
+{"id": "r-0178", "source": "gamma", "recordedAt": "2026-03-19 04:54:00", "value": 38, "status": "WARN"}
+{"id": "r-0179", "source": "delta", "recordedAt": "06/03/2026 02:45:00", "value": 88, "status": "OK"}
+{"id": "r-0180", "source": "beta", "recordedAt": "2026-03-20T06:56:00Z", "value": 84, "status": "OK"}
+{"id": "r-0181", "source": "beta", "recordedAt": "2026-03-05T11:47:00+05:30", "value": 74, "status": "WARN"}
+{"id": "r-0182", "source": "beta", "recordedAt": "2026-03-14 11:22:00", "value": 71, "status": "OK"}
+{"id": "r-0183", "source": "gamma", "recordedAt": "04/03/2026 02:00:00", "value": 49, "status": "FAIL"}
+{"id": "r-0184", "source": "alpha", "recordedAt": "2026-03-27T15:26:00Z", "value": 70, "status": "FAIL"}
+{"id": "r-0185", "source": "beta", "recordedAt": "2026-03-16T03:06:00+05:30", "value": 20, "status": "WARN"}
+{"id": "r-0186", "source": "beta", "recordedAt": "2026-03-03 06:06:00", "value": 36, "status": "WARN"}
+{"id": "r-0187", "source": "delta", "recordedAt": "20/03/2026 18:02:00", "value": 66, "status": "OK"}
+{"id": "r-0188", "source": "beta", "recordedAt": "2026-03-07T07:01:00Z", "value": 9, "status": "FAIL"}
+{"id": "r-0189", "source": "gamma", "recordedAt": "2026-03-16T05:42:00+05:30", "value": 49, "status": "FAIL"}
+{"id": "r-0190", "source": "delta", "recordedAt": "2026-03-10 10:07:00", "value": 34, "status": "OK"}
+{"id": "r-0191", "source": "beta", "recordedAt": "02/03/2026 07:01:00", "value": 58, "status": "FAIL"}
+{"id": "dup-0002", "source": "beta", "recordedAt": "2026-03-11T09:00:00Z", "value": 90, "status": "FAIL"}
+{"id": "r-0192", "source": "delta", "recordedAt": "2026-03-22T09:06:00Z", "value": 14, "status": "WARN"}
+{"id": "r-0193", "source": "beta", "recordedAt": "2026-03-09T22:43:00+05:30", "value": 59, "status": "OK"}
+{"id": "r-0194", "source": "beta", "recordedAt": "2026-03-17 19:06:00", "value": 95, "status": "OK"}
+{"id": "r-0195", "source": "gamma", "recordedAt": "12/03/2026 16:35:00", "value": 39, "status": "FAIL"}
+{"id": "r-0196", "source": "beta", "recordedAt": "2026-03-03T09:10:00Z", "value": 32, "status": "WARN"}
+{"id": "r-0197", "source": "delta", "recordedAt": "2026-03-07T22:35:00+05:30", "value": 34, "status": "WARN"}
+{"id": "r-0198", "source": "gamma", "recordedAt": "2026-03-29 13:30:00", "value": 98, "status": "FAIL"}
+{"id": "r-0199", "source": "beta", "recordedAt": "21/03/2026 03:59:00", "value": 33, "status": "WARN"}
+{"id": "r-0200", "source": "beta", "recordedAt": "2026-03-10T20:57:00Z", "value": 51, "status": "OK"}

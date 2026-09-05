@@ -46,7 +46,7 @@ class IngestReport:
 
     def format(self) -> str:
         lines = [
-            f"Run #{self.run_id} — {self.source_file}",
+            f"Run #{self.run_id} - {self.source_file}",
             f"  records read: {self.total_lines}",
             f"  accepted:     {self.accepted}",
             f"  rejected:     {self.rejected}",
