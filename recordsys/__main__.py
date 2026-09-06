@@ -62,7 +62,7 @@ def _cmd_ingest(args: argparse.Namespace) -> int:
 def _cmd_query(args: argparse.Namespace) -> int:
     try:
         date_from = _normalise_bound(args.date_from)
-        date_to = _normalise_bound(args.date_to)
+        date_to = _normalise_bound(args.date_to, is_upper=True)
     except RejectionError as exc:
         print(f"error: {exc.detail}", file=sys.stderr)
         return 2
@@ -84,9 +84,21 @@ def _cmd_runs(args: argparse.Namespace) -> int:
     return 0
 
 
-def _normalise_bound(raw: str | None) -> str | None:
-    """Query bounds accept the same date formats the ingest does."""
-    return None if raw is None else format_utc(parse_datetime(raw))
+def _normalise_bound(raw: str | None, is_upper: bool = False) -> str | None:
+    """Query bounds accept the same date formats the ingest does.
+
+    A date given without a time covers the whole day: a lower bound sits at its
+    start (midnight, which parse_datetime already gives), an upper bound at its
+    end. Without this, `--to 2026-03-15` would mean midnight *starting* the 15th
+    and silently exclude everything recorded during that day. A bound that
+    carries an explicit time (any that contains a colon) is honoured as given.
+    """
+    if raw is None:
+        return None
+    dt = parse_datetime(raw)
+    if is_upper and ":" not in raw:
+        dt = dt.replace(hour=23, minute=59, second=59, microsecond=999999)
+    return format_utc(dt)
 
 
 def _emit(rows: list[dict[str, Any]], columns: list[str], as_json: bool) -> None:

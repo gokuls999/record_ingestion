@@ -47,9 +47,11 @@ python -m recordsys query --from 2026-03-01 --to 2026-03-15
 python -m recordsys query --source beta --status FAIL --from "01/03/2026 00:00:00" --json
 ```
 
-Filters combine, date bounds are inclusive, and `--from` / `--to` accept any
-date format the ingest accepts. `--json` on any command emits JSON instead of a
-table.
+Filters combine, and `--from` / `--to` accept any date format the ingest
+accepts. Both bounds are inclusive: a bare date covers the whole day, so
+`--to 2026-03-15` includes everything recorded on the 15th (pass a time, e.g.
+`--to "2026-03-15 09:00:00"`, to cut off mid-day). `--json` on any command emits
+JSON instead of a table.
 
 ### Finding a record that never showed up
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from recordsys.__main__ import _normalise_bound
 from recordsys.ingest import ingest_file
 from recordsys.query import query_records, query_rejects
 
@@ -72,6 +73,36 @@ def test_results_are_ordered_by_time(db_path, write_file, record):
     db = populated(db_path, write_file, record)
     rows = query_records(db)
     assert [r["id"] for r in rows] == ["a-ok", "a-warn", "b-ok", "b-fail"]
+
+
+def test_date_only_upper_bound_covers_the_whole_day(db_path, write_file, record):
+    """`--to 2026-03-15` must include a record recorded late on the 15th."""
+    path = write_file(
+        [record(id="late-on-15th", recordedAt="2026-03-15T20:53:00Z")]
+    )
+    ingest_file(db_path, path)
+    rows = query_records(db_path, date_to=_normalise_bound("2026-03-15", is_upper=True))
+    assert ids(rows) == {"late-on-15th"}
+
+
+def test_date_only_lower_bound_starts_at_midnight(db_path, write_file, record):
+    """A lower bound stays at the start of its day, so the whole day is included."""
+    path = write_file(
+        [record(id="early-on-15th", recordedAt="2026-03-15T00:00:00Z")]
+    )
+    ingest_file(db_path, path)
+    rows = query_records(db_path, date_from=_normalise_bound("2026-03-15"))
+    assert ids(rows) == {"early-on-15th"}
+
+
+def test_upper_bound_with_explicit_time_is_honoured_exactly(db_path, write_file, record):
+    """A bound carrying a time is not widened to end-of-day."""
+    path = write_file(
+        [record(id="after-cutoff", recordedAt="2026-03-15T09:00:01Z")]
+    )
+    ingest_file(db_path, path)
+    bound = _normalise_bound("2026-03-15T09:00:00Z", is_upper=True)
+    assert query_records(db_path, date_to=bound) == []
 
 
 def test_rejects_can_be_found_by_record_id(db_path, write_file, record):

@@ -431,6 +431,30 @@ lot (1.4). For an exercise this is right — nothing disappears. In production
 this table grows without bound and needs a retention window, which is a policy
 question for whoever owns the data rather than one I should invent.
 
+### 5.4 A date-only query bound covers the whole day
+
+**Open:** R4 asks for a date-range filter but says nothing about how a bound
+without a time should be read. `recordedAt` values carry a time; the bounds a
+user types often will not — `--from 2026-03-01 --to 2026-03-15`.
+
+**Decided:** A bound given as a bare date covers the entire day. A lower bound
+sits at its start (`00:00:00`, which is what parsing a bare date already gives);
+an upper bound is widened to its end (`23:59:59.999999`). A bound that carries an
+explicit time is used exactly as written.
+
+**Why:** `2.8` reads a bare date as midnight everywhere, which is right for a
+lower bound but wrong for an upper one: `--to 2026-03-15` would mean *the first
+instant of the 15th* and silently exclude everything recorded during that day —
+so "1st to the 15th" would drop the 15th. That contradicts how anyone reads a
+date range, and the failure is invisible: the query succeeds and just returns
+too little. Widening only the upper bound, and only when no time was given,
+matches the ordinary reading and what a reporting tool does.
+
+**Cost:** `--to 2026-03-15` and `--to "2026-03-15 00:00:00"` now mean different
+things — the first covers the whole day, the second a single instant. That
+asymmetry is deliberate: a bare date is a day, a timestamp is a moment. Tested in
+`test_date_only_upper_bound_covers_the_whole_day` and its two neighbours.
+
 ---
 
 ## 6. Testing
