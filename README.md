@@ -62,7 +62,7 @@ python -m recordsys runs                       # history of every ingest
 ### Tests, and regenerating the sample
 
 ```bash
-pip install pytest && python -m pytest      # 92 tests, ~4s
+pip install pytest && python -m pytest      # 92 tests, ~40s
 python scripts/generate_sample.py           # rewrites sample_records.jsonl
 ```
 
@@ -115,18 +115,18 @@ always equals records read.
 `scripts/generate_sample.py`. The awkward ones have descriptive ids so each path
 can be found by name — `python -m recordsys rejects --id val-0001`:
 
-| id | what it exercises |
-|---|---|
-| `dup-0001` | same id three times: two identical, one newer with a different value |
-| `dup-0002` | same id, same timestamp, different values — a genuine tie |
-| `dup-0003` | the newer version appears *first*, proving the rule is not "last line wins" |
-| `miss-000*` | a missing field, and a `null` one |
-| `date-000*` | unparseable, blank, and impossible dates |
-| `val-000*` | out of range, non-integer, string, and boolean values |
-| `status-000*` | an unlisted status, and an empty one |
-| `blank-000*` | empty and whitespace-only text |
+| id             | what it exercises                                                              |
+| -------------- | ------------------------------------------------------------------------------ |
+| `dup-0001`     | same id three times: two identical, one newer with a different value           |
+| `dup-0002`     | same id, same timestamp, different values — a genuine tie                      |
+| `dup-0003`     | the newer version appears _first_, proving the rule is not "last line wins"    |
+| `miss-000*`    | a missing field, and a `null` one                                              |
+| `date-000*`    | unparseable, blank, and impossible dates                                       |
+| `val-000*`     | out of range, non-integer, string, and boolean values                          |
+| `status-000*`  | an unlisted status, and an empty one                                           |
+| `blank-000*`   | empty and whitespace-only text                                                 |
 | `lenient-000*` | accepted only because of a deliberate leniency (see ASSUMPTIONS 2.4, 2.5, 2.7) |
-| `broken-0001` | a truncated line, and JSON that is not a record |
+| `broken-0001`  | a truncated line, and JSON that is not a record                                |
 
 Records also arrive in four date formats — ISO with `Z`, ISO with a `+05:30`
 offset, `YYYY-MM-DD HH:MM:SS` and `DD/MM/YYYY HH:MM:SS`.
@@ -136,7 +136,7 @@ offset, `YYYY-MM-DD HH:MM:SS` and `DD/MM/YYYY HH:MM:SS`.
 92 tests, weighted towards where the risk is rather than spread for coverage.
 The bulk sit on deduplication and repeat runs, because a wrong winner is silent
 in a way a rejected record is not. Dates are tested by asserting every accepted
-format lands on the *same instant*. Two tests defend design claims rather than
+format lands on the _same instant_. Two tests defend design claims rather than
 behaviour: that a crash mid-run leaves nothing behind, and that normalised
 timestamps sort chronologically as plain strings. Reasoning in
 [ASSUMPTIONS.md](ASSUMPTIONS.md#6-testing).
@@ -145,7 +145,7 @@ timestamps sort chronologically as plain strings. Reasoning in
 
 **Keep record history.** The store holds only the current version of a record,
 so an update overwrites what was there before. `first_seen_at` vs `ingested_at`
-shows *that* something changed but not what it was. An append-only table with
+shows _that_ something changed but not what it was. An append-only table with
 validity ranges would answer "what did this record say last Tuesday?", which is
 the first question I would expect after this ships.
 
